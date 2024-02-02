@@ -1,0 +1,26 @@
+{
+    "name": "pcd_py",
+    "version": "1.0.0",
+    "description": "Your extension description",
+    "publisher": "AkshuDev",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "iconTheme": {
+        "fileExtentions": {".ppcd": "", "psaf": ""}
+    },
+    "activationEvents": ["onCommand:yourCommand"],
+    "categories": ["Other"],
+    "keywords": ["your-keyword"],
+    "license": "MIT",
+    "icon": "path/to/icon.png",
+    "contributes": {
+
+    },
+    "scripts": {
+
+    },
+    "dependencies": {
+
+    }
+}

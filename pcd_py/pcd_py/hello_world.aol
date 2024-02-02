@@ -1,0 +1,13 @@
+#include <PACI.aol.stdlib>
+
+section .var
+    var msg = "Hello World! \n";
+
+stdlib.global((section .var));
+
+int main(){
+    var not_a_global_msg = "Hello World! \n";
+    print(msg);
+    print(not_a_global_msg);
+    return 0;
+}
